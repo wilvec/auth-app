@@ -20,7 +20,6 @@ export default function Products() {
         },
       })
       .then((res) => {
-        console.log(res.data);
         setProducts(res.data.products);
       })
       .catch((err) => {
